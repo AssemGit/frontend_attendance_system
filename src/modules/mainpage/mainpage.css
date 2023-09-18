@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10em;
+
+  line-height: 77px;
+  font-family: "Sui Generis Rg", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #16354d;
+}
