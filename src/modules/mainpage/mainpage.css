@@ -1,13 +1,20 @@
 .header {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
-  height: 10em;
+  padding: 0.5px;
 
   line-height: 77px;
   font-family: "Sui Generis Rg", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  color: #16354d;
+  font-size: 25px;
+  color: white;
+  /* background-color: #303030; */
+  /* #16354d; */
+  margin-bottom: 2%;
+}
+button {
+  display: block;
+  display: inline;
 }
