@@ -7,3 +7,11 @@
 .content {
   background-color: white;
 }
+.login a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
