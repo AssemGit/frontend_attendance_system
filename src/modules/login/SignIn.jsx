@@ -43,10 +43,10 @@ function SignIn() {
                     <Link className="loginLink" to="/mainpage">
                         <button className="buttonLogin">Login</button>
                     </Link>
-                    <div class="sign-up">
+                    {/* <div class="sign-up">
                         Not a member?
                         <a href="/">Signup</a>
-                    </div>
+                    </div> */}
                 </form>
             </div>
         </div>
