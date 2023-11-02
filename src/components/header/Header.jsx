@@ -32,11 +32,13 @@ function Header() {
                 {/* <button onClick={closeMobileMenu}> */}
                 <div className="Logo">
                     <img src={user1} className="logo" />
+                    Attendance <br />
+                    System
                 </div>
                 <div className="Icons">
-                    <Link><img src={calendar} className="icons" /></Link>
+                    {/* <Link><img src={calendar} className="icons" /></Link>
                     <Link><img src={bell} className="icons" /></Link>
-                    <Link><img src={help} className="icons" /></Link>
+                    <Link><img src={help} className="icons" /></Link> */}
                     <Link><img src={user} className="icons" /></Link>
                     <Link to="/signin"><img src={exit} className="icons" /></Link>
 

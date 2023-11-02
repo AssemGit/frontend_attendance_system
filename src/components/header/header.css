@@ -10,9 +10,17 @@
 }
 .Logo {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin-left: 10px;
+
+  color: #fff;
+  font-family: Prosto One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
 }
 .Icons {
   display: flex;
@@ -21,7 +29,7 @@
   margin-top: -35px;
 }
 .logo {
-  background-color: #d71232;
+  background-color: #225dac;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   width: 30px;

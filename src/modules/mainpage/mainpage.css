@@ -17,11 +17,12 @@
 }
 .date {
   grid-area: date;
-  background-color: #d71232;
+  background-color: #214371;
   color: white;
   padding: 5px;
   width: 20%;
   margin-left: 70%;
+  border-radius: 10px;
 }
 .scheduleTable {
   grid-area: table;

@@ -9,10 +9,7 @@ function App() {
   return (
     <div className="App">
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Prosto+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet"/>
       </head>
       <BrowserRouter>
         <Routes>
