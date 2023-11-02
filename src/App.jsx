@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import MainPage from './modules/mainpage/Mainpage';
+import MainPage from './modules/mainpage/Mainpage';
 import SignIn from "./modules/login/SignIn";
 import SignUp from "./modules/login/SignUp";
 
@@ -8,11 +8,17 @@ import SignUp from "./modules/login/SignUp";
 function App() {
   return (
     <div className="App">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <BrowserRouter>
         <Routes>
-          {/* <Route index path="/" element={<MainPage />} />  */}
-          <Route index path="/signin" element={<SignIn />} /> 
-          <Route index path="/" element={<SignUp />} /> 
+          <Route index path="/" element={<SignUp />} />
+          <Route index path="/signin" element={<SignIn />} />
+          <Route index path="/mainpage" element={<MainPage />} />
 
 
 

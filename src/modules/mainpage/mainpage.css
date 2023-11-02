@@ -1,20 +1,31 @@
 .header {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5px;
-
-  line-height: 77px;
-  font-family: "Sui Generis Rg", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  color: white;
-  /* background-color: #303030; */
-  /* #16354d; */
-  margin-bottom: 2%;
+  margin: 0;
 }
-button {
-  display: block;
-  display: inline;
+
+.contentMainpage {
+  display: grid;
+  grid:
+    "day date"
+    "table table";
+  margin: 40px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+}
+.day {
+  grid-area: day;
+}
+.date {
+  grid-area: date;
+  background-color: #d71232;
+  color: white;
+  padding: 5px;
+  width: 20%;
+  margin-left: 70%;
+}
+.scheduleTable {
+  grid-area: table;
+}
+td {
+  border-top: black 1px;
 }

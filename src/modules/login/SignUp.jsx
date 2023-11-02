@@ -1,9 +1,11 @@
 import React from "react";
 import "./signup.css";
 
+
 function SignUp() {
     return (
         <div className="Signup">
+            <div></div>
             <div className="content">
 
                 <div class="text">
