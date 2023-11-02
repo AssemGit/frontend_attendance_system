@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 // import { useNavigate } from "react-router-dom";
 import menu from "../../assets/images/menu.png";
-import cancel from "../../assets/images/cancel.png";
-import help from "../../assets/images/help.png";
 import user from "../../assets/images/user.png";
-import calendar from "../../assets/images/calendar.png";
-import bell from "../../assets/images/bell.png";
 import exit from "../../assets/images/exit.png";
 import user1 from "../../assets/images/user1.png";
 import { Link } from "react-router-dom";
@@ -30,20 +26,22 @@ function Header() {
                 
                 {/* <div className={click ? "nav-menu active" : "nav-menu"}> */}
                 {/* <button onClick={closeMobileMenu}> */}
+                <div className="menu">
+                    <Link>
+                        <img src={menu} className="menuIcon" />
+                    </Link>
+                </div>
+                
                 <div className="Logo">
                     <img src={user1} className="logo" />
-                    Attendance <br />
-                    System
+                    <span className="logoText">Attendance <br/> System</span>
+
+                    
                 </div>
+
                 <div className="Icons">
-                    {/* <Link><img src={calendar} className="icons" /></Link>
-                    <Link><img src={bell} className="icons" /></Link>
-                    <Link><img src={help} className="icons" /></Link> */}
                     <Link><img src={user} className="icons" /></Link>
                     <Link to="/signin"><img src={exit} className="icons" /></Link>
-
-
-                    {/* </button> */}
                 </div>
             </div>
         </div>
