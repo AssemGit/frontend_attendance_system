@@ -10,6 +10,7 @@
   padding: 40px 30px;
   border-radius: 10px;
   box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+  background-color: white;
 }
 .loginLink {
   text-decoration: none;
@@ -56,11 +57,11 @@
   border: 2px solid;
   border-color: #595959;
   border-radius: 10px;
-  color: #4c4c4c;
+  color: black;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -73,9 +74,12 @@
   /* box-shadow: 0px 0px 35px 0px rgba(214, 4, 53, 0.3); */
 }
 
+.help {
+  display: inline-flex;
+  margin-top: 7px;
+}
 .forgot-pass {
-  display: inline;
-  /* text-align: right; */
+  display: inline-flex;
   margin: 10px 0 10px 5px;
 }
 
@@ -90,8 +94,8 @@
 }
 
 .rem {
-  display: inline-block;
-  margin: 10px 0 10px 5px;
+  display: inline-flex;
+  margin: 10px 7px 10px 5px;
 }
 .remember {
   margin-right: 65px;
@@ -109,6 +113,9 @@
   border-radius: 4px;
   border: 2px solid #4c4c4c;
   background: #fff;
+}
+.rememberInput {
+  align-self: center;
 }
 
 .buttonLogin {
